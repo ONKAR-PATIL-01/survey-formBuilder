@@ -6,7 +6,37 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.dash{
+  align-items: center;
+  
+  margin-left: 70%; 
 
+}
+nav{
+  background-color: #FFFF00;
+  padding: 16px 32px;
+  border-radius: 20px;
+  border: 5px;
+  border-color: #FFFF00;
+  
+}
+
+.homepagetitle{
+  align-self: center;
+  padding: auto;
+  align-items: center;
+  margin-top: 20%;
+  color: #FFFF00;
+  font-size: 5rem;
+  margin-left: 48%;
+}
+nav a{
+  margin-right: 36px;
+}
+nav a.active{
+  text-decoration: none;
+  font-weight: bolder;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
